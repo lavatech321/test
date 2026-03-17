@@ -1,5 +1,6 @@
 ---
 - hosts: localhost
+  become: true
   tasks:
     - name: "add user"
       user:
