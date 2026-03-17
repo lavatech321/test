@@ -4,8 +4,11 @@
   tasks:
     - name: "add user"
       user:
-        name: "raman"
+        name: {{ item }}
         state: "present"
+      loop:
+        - ravi
+        - jimi
     - name: "install package"
       yum:
         name: httpd
