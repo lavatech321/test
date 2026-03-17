@@ -8,8 +8,5 @@
       user:
         name: {{ item }}
         state: "present"
-      loop:
-        - ravi
-        - jimi
 ...
   
