@@ -1,12 +1,9 @@
 ---
 - hosts: localhost
-  become: true
-  vars:
-    pname: "httpd"
   tasks:
     - name: "add user"
       user:
-        name: {{ item }}
+        name: ravi
         state: "present"
 ...
   
