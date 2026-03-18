@@ -4,15 +4,15 @@
   tasks:
     - name: "add user"
       user:
-        name: ravi
+        name: ankita
         state: "present"
     - name: "add user"
       user:
-        name: raj
+        name: test
         state: "present"
     - name: "add file"
       file:
-        name: /tmp/one.txt
+        name: /tmp/ankita.txt
         state: "present"
 ...
   
