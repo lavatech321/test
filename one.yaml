@@ -10,5 +10,9 @@
       user:
         name: raj
         state: "present"
+    - name: "add file"
+      file:
+        name: /tmp/one.txt
+        state: "present"
 ...
   
