@@ -1,9 +1,14 @@
 ---
 - hosts: localhost
+  become: true
   tasks:
     - name: "add user"
       user:
         name: ravi
+        state: "present"
+    - name: "add user"
+      user:
+        name: raj
         state: "present"
 ...
   
