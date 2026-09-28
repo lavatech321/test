@@ -1,4 +1,0 @@
-shamal is working from today
-on shamal.txt file
-
-this is the test file for her branch
