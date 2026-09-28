@@ -1,10 +1,10 @@
 ---
-- hosts: localhost
+- hosts: 192.1268.1.10
   become: true
   tasks:
     - name: "add user"
       user:
-        name: ankita
+        name: priya
         state: "present"
     - name: "add user"
       user:
